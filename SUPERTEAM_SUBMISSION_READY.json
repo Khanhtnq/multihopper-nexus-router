@@ -1,0 +1,53 @@
+{
+  "challenge": "MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share",
+  "challengeUrl": "https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1",
+  "listingSlug": "multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1",
+  "rewardAmount": 5000,
+  "rewardToken": "USDC",
+  "submission": {
+    "title": "MultiHopper Nexus Router - Solana Multi-Hop Smart Order Routing & Arbitrage Engine",
+    "projectSummary": "A production-grade Solana multi-hop split routing, arbitrage detection, and treasury execution engine that mathematically optimizes token swaps across Raydium, Orca, Meteora, and Phoenix using Yen's K-Shortest Path and SLSQP convex split optimization, natively piping proceeds into MultiHopper privacy-preserving multi-hop transfers and up to 20-recipient multi-destination treasury dispersion with TRM Labs compliance screening.",
+    "liveProductUrl": "https://khanhtnq.github.io/multihopper-nexus-router/",
+    "demoVideoUrl": "https://raw.githubusercontent.com/Khanhtnq/multihopper-nexus-router/main/demo_video.mp4",
+    "repositoryUrl": "https://github.com/Khanhtnq/multihopper-nexus-router",
+    "solanaWallet": "6mghraUR9NV2fA187VXoLN2rVS3WLA91UhqLfjtvDdmf",
+    "integratorIdentifier": "mh_live_nexus_router_6mghraUR9NV2fA187VXoLN2rVS3WLA91UhqLfjtvDdmf",
+    "primaryContact": {
+      "github": "https://github.com/Khanhtnq",
+      "telegram": "https://t.me/multihopperbuilderportal",
+      "email": "218711032+Khanhtnq@users.noreply.github.com"
+    },
+    "technicalOverview": {
+      "smartContractIntegrations": {
+        "multihopperCore": "3jLoS2wbNgtKzieUUxwg6Xhdv6gbZkHDtPWA9ZAgspFh",
+        "orchestrator": "4TPCmR2uN3hDM1FbTsf7ZtFXwXGSz4u1Kxv5YHj6eruX",
+        "transferHookGuard": "2JEv3pD6nczEvn1xDXaEzehkJofPPjoQQpnW5nGY3r52",
+        "token2022": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
+      },
+      "mathematicalModels": [
+        "Raydium AMM (Constant Product x*y=k)",
+        "Raydium CLMM & Orca Whirlpool (Concentrated Liquidity with ticks and sqrtPriceX64)",
+        "Meteora DLMM (Discrete Dynamic Liquidity Bins with volatility fees)",
+        "Phoenix / Lifinity (Orderbook CFMM with proactive market making & inventory skew penalty)",
+        "Yen's K-Shortest Path (Loopless multi-hop graph routing in logarithmic cost space)",
+        "SLSQP Convex Split Optimization (Non-linear waterfilling across liquidity pools)",
+        "Bellman-Ford Cyclic Arbitrage Detection (Negative-cycle detection with net gas and priority fee accounting)"
+      ],
+      "multihopperFeatures": [
+        "Swaps-with-Hooks Pipeline (combining DEX execution with MultiHopper Core route deployment)",
+        "Multi-Destination Dispersion (up to 20 recipient wallets with exact proportional share allocations)",
+        "Automatic TRM Labs Screening (0.002 SOL per wallet fee integration)",
+        "Real-time 0.25% Integrator Revenue Calculation ($2,500 per $1M routed)",
+        "HMAC-SHA256 Signed Webhook Lifecycle Engine"
+      ],
+      "testCoverage": "35 passing tests, 0 mocks, covering exact mathematical invariants, slippage curves, fee schedules, and transaction builder."
+    },
+    "revenueAndVolumeModel": {
+      "qualifyingVolumeThreshold": "$100,000 USD minimum production volume",
+      "revenueShareRate": "0.25% of full-fee volume ($2,500 per $1M routed)",
+      "initialPrizeGuarantee": "$5,000 USDC unlocked at $2M aggregate volume",
+      "scaledPrizePool": "$1,000 unlocked per additional $400k volume up to $50,000 USDC at $20M aggregate volume",
+      "prizeDistribution": "Proportional share of funded pool based on qualifying volume among top 3 winners"
+    }
+  }
+}

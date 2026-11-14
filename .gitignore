@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+.env
+.venv
+env/
+venv/
+node_modules/
+video_frames/
